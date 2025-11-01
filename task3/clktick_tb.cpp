@@ -63,3 +63,6 @@ int main(int argc, char **argv, char **env)
     tfp->close();
     exit(0);
 }
+
+
+//v=24 for 1 sec beats,

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "macOS",
+            "compilerPath": "/usr/bin/clang++",          // use clang++ instead of clang
+            "cStandard": "c17",
+            "cppStandard": "c++17",                      // upgrade to match modern GTest
+            "intelliSenseMode": "macos-clang-arm64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include",
+                "/opt/homebrew/include",                 // if using Homebrew-installed gtest
+                "/usr/include"
+            ]
+        }
+    ],
+    "version": 4
+}
